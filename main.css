@@ -1,9 +1,10 @@
-#allpagesofmyblackgrimuare{
-    position: absolute;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 1250px;
+.allpagesofmyblackgrimuare{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
     box-shadow: 4px 0 70px rgb(0, 0, 0);
+    min-width: 600px;
 }
 /*@media screen and (max-width: 1550px) {
     .allpagesofmyblackgrimuare { margin-left: 0%;
@@ -34,15 +35,15 @@
     cursor:pointer;
     display:none;
     color:#333;
-    font-family:verdana;
+    font-family: Trajan;
     font-size:11px;
 }
 
 #container{
     background-color: green;
     min-height: 50px;
-    margin-left: -150px;
-    width: 1550px;
+    margin-left: 15%;
+    width: 70%;
 }
 
 
@@ -54,11 +55,9 @@
 }*/
 #logo-menu{
     padding-top: 10px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 7%;
+    padding-right: 7%;
     padding-bottom: 10px;
-    width: 1250px;
-
 }
 /*@media screen and (max-width: 1550px) {
     #logo-menu{
@@ -67,20 +66,20 @@
     }
 }*/
 .logo{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 0.2%;
+    margin-left: 2%;
     float: left;
 }
 
 .text-logo{
     margin-left: 2%;
-    margin-top: 0.8%;
+    margin-top: 0.5%;
     float: left;
     font-family: 'Adler', sans-serif;
 }
 
 .menu {
-    padding-left: 100px;
+    padding-left: 0;
     float: left;
     }
 
@@ -96,7 +95,7 @@
 }
 
 .menu-main {
-    padding-left: 0px;
+    padding-left: 0;
 }
 .menu-main li {display: inline-block;
 
@@ -109,21 +108,18 @@
     position: relative;
     line-height: 30px;
     padding-left: 20px;
-    font-size: 20.6pt;
-    letter-spacing: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
     color: black;
     transition:.3s linear;
-    font-family: Trajan;
-
 }
 .cart {
     float: right;
     margin-right: 3%;
     margin-top: 1%;
+    box-shadow: 0 0 5px 2px;
 }
 #firstpage {
-    width: 1250px;
-    height: 990px;
     background-image: url("Pictures/brooke-lark-230140-unsplash.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -133,8 +129,7 @@
     margin-left: 50%;
     width: 50%;
     font-family: 'Trajan', sans-serif;
-    font-size: 41.6pt;
-    line-height: 40pt;
+    font-size: 3vw;
 }
 a.button25 {
     margin-top: 15%;
@@ -172,33 +167,23 @@ a.button25:active {
     background-image: url("Pictures/samay-bhavsar-96212-unsplash.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    font-size: 19.1pt;
-    height: 780px;
-    width: 1250px;
+    font-size: 1.4vw;
 }
 
 #about-text{
     font-family: 'Trajan', sans-serif;
     background: rgba(255, 255, 255, 0.8);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-#about-text p{
+.abouttext p{
     margin-top: 0;
-    margin-bottom: 20;
-    font-size: 36pt;
-    font-family: Trajan;
-    letter-spacing: 10pt;
-    text-shadow: 4px 0px 7px #000;
+    margin-bottom: 1%;
 }
 .foodmenu{
-    width: 1250px;
-    height: 830px;
     background-image: url("Pictures/scott-webb-199470-unsplash.jpg");
     background-size: 100%;
+    min-height: 750px;
     background-repeat: no-repeat;
 }
 
@@ -220,11 +205,11 @@ a.button25:active {
     max-width: 60px;
 }
 .foodmenu p {
-    font-size: 36pt;
+    font-size: 3vw;
     text-shadow: 1px 1px 20px black;
     letter-spacing: 1vw;
     font-family: 'Trajan', sans-serif;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 
@@ -237,8 +222,9 @@ a.button25:active {
 
 .FoodName{
     font-weight: bold;
-    font-size: 12pt;
-    line-height: 28pt;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    line-height: 1.3vw;
     font-family: 'Trajan', sans-serif;
     padding-top: 0.5vw;
     min-height: 40px;
@@ -275,8 +261,8 @@ a.button25:active {
 
 }
 .advisebox h1{
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .advisebox{
     margin-left: 2%;
@@ -318,7 +304,7 @@ a.button25:active {
     clear: both;
 }
 #contacts h1{
-    margin-top: 0%;
+    margin-top: 0;
     padding-top: 5%;
     letter-spacing: 10px;
 }
@@ -329,7 +315,7 @@ a.button25:active {
 }
 
 #contactstext {
-    font-family: Trajan;
+    font-family: Trajan, sans-serif;
     padding-top: 1%;
     font-size: 20px;
     letter-spacing: 5px;

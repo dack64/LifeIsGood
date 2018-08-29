@@ -1,0 +1,356 @@
+#allpagesofmyblackgrimuare{
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 1250px;
+    box-shadow: 4px 0 70px rgb(0, 0, 0);
+    opacity: 0;
+}
+/*@media screen and (max-width: 1550px) {
+    .allpagesofmyblackgrimuare { margin-left: 0%;
+    margin-right: 0; width: 100%;
+    }
+}*/
+
+
+
+@font-face {
+    font-family: Trajan;
+    src: url(fonts/Trajan.ttf) format("truetype");
+}
+@font-face {
+    font-family: adler;
+    src: url(fonts/adler.ttf) format("truetype");
+}
+
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+}
+
+#container{
+    background-color: green;
+    min-height: 50px;
+    margin-left: -150px;
+    width: 1550px;
+}
+
+
+/*@media screen and (max-width: 1550px) {
+    #container {
+        margin-left: 0%;
+        width: 100%;
+    }
+}*/
+#logo-menu{
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    width: 1250px;
+
+}
+/*@media screen and (max-width: 1550px) {
+    #logo-menu{
+        padding-left: 0.2%;
+        padding-right: 0.2%;
+    }
+}*/
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.text-logo{
+    margin-left: 2%;
+    margin-top: 0.8%;
+    float: left;
+    font-family: 'Adler', sans-serif;
+}
+
+.menu {
+    padding-left: 100px;
+    float: left;
+    }
+
+.top-menu {
+    background: white;
+    /*box-shadow: 3px 0 7px rgba(0,0,0,.3);*/
+
+}
+.top-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-main {
+    padding-left: 0px;
+}
+.menu-main li {display: inline-block;
+
+}
+.menu-main a {
+    font-family: 'Trajan', sans-serif;
+    text-shadow: 1px 1px 20px black;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: 20.6pt;
+    letter-spacing: 10px;
+    color: black;
+    transition:.3s linear;
+    font-family: Trajan;
+
+}
+.cart {
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+#firstpage {
+    width: 1250px;
+    height: 990px;
+    background-image: url("Pictures/brooke-lark-230140-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#firstpage-text{
+    margin-left: 50%;
+    width: 50%;
+    font-family: 'Trajan', sans-serif;
+    font-size: 41.6pt;
+    line-height: 40pt;
+}
+a.button25 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    position: relative;
+    display: inline-block;
+    width: 18vw;
+    height: 4vw;
+    line-height: 2em;
+    vertical-align: middle;
+    font-family: Trajan;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 3px 15px #000000;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #4b8b38, #9bb6a2);
+}
+a.button25:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+.orderbutton{
+    float: left;
+}
+#about {
+    float: bottom;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url("Pictures/samay-bhavsar-96212-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 19.1pt;
+    height: 780px;
+    width: 1250px;
+}
+
+#about-text{
+    font-family: 'Trajan', sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#about-text p{
+    margin-top: 0;
+    margin-bottom: 20;
+    font-size: 36pt;
+    font-family: Trajan;
+    letter-spacing: 10pt;
+    text-shadow: 4px 0px 7px #000;
+}
+.foodmenu{
+    width: 1250px;
+    height: 830px;
+    background-image: url("Pictures/scott-webb-199470-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*
+@media screen and (max-width: 1150px) {
+    .foodmenu { min-height: 0px;
+    background-position: center}
+}
+*/
+
+.foodmenu:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.foodbox {
+    float: left;
+    padding-left: 11px;
+    max-width: 60px;
+}
+.foodmenu p {
+    font-size: 36pt;
+    text-shadow: 1px 1px 20px black;
+    letter-spacing: 1vw;
+    font-family: 'Trajan', sans-serif;
+    margin-top: 0px;
+}
+
+
+.units{
+    float: left;
+    padding-left: 9%;
+    padding-bottom: 3%;
+    min-width: 220px;
+}
+
+.FoodName{
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 28pt;
+    font-family: 'Trajan', sans-serif;
+    padding-top: 0.5vw;
+    min-height: 40px;
+
+}
+.units p2{
+    display: inline-block;
+    line-height: 1.5em;
+    width: 5vw;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    background: linear-gradient(to right, #a1be9a, #284723);
+}
+
+
+.foodmenupicture{
+    float: left;
+    padding-bottom: 1vw;
+
+}
+
+#advise {
+    background-image: url("Pictures/dan-gold-298710-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+}
+.advisebox h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.advisebox{
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgba(255, 255, 255, 0.6);
+}
+.advise-block{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 5%;
+    float: left;
+    max-width: 43%;
+}
+.advise-block-picture{
+    float: left;
+}
+.adviseblocktext{
+    float: top;
+    font-family: Trajan, sans-serif;
+    font-size: 12px;
+}
+.advisebox:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#contacts {
+    padding-left: 5%;
+    background-image: url("Pictures/bady-qb-583010-unsplash22.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Trajan;
+
+}
+#contacts:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#contacts h1{
+    margin-top: 0%;
+    padding-top: 5%;
+    letter-spacing: 10px;
+}
+
+#contactsheader {
+    float: top;
+    min-height: 20%;
+}
+
+#contactstext {
+    font-family: Trajan;
+    padding-top: 1%;
+    font-size: 20px;
+    letter-spacing: 5px;
+    float: top;
+    min-height: 40%;
+}
+#contactssocial{
+    min-height: 30%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 40%;
+
+}
+#contactsfooter1 {
+    min-width: 85%;
+    margin-left: 0.5%;
+    float: left;
+    height: 10%;
+}
+#contactsfooter2 {
+    float: left;
+    color: white;
+}

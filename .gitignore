@@ -9,3 +9,6 @@ Pictures/Thumbs.db
 .idea/modules.xml
 .idea/Test.iml
 Pictures/.DS_Store
+*.xml___jb_old___
+.idea/dictionaries/Andrey.xml
+*.xml

@@ -192,7 +192,7 @@ a.button25:active {
     font-size: 36pt;
     font-family: Trajan;
     letter-spacing: 10pt;
-    text-shadow: 4px 0px 7px #000;
+    text-shadow: 4px 0 7px #000;
 }
 .foodmenu{
     width: 1250px;
@@ -224,7 +224,7 @@ a.button25:active {
     text-shadow: 1px 1px 20px black;
     letter-spacing: 1vw;
     font-family: 'Trajan', sans-serif;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 
@@ -275,8 +275,8 @@ a.button25:active {
 
 }
 .advisebox h1{
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .advisebox{
     margin-left: 2%;
@@ -318,7 +318,7 @@ a.button25:active {
     clear: both;
 }
 #contacts h1{
-    margin-top: 0%;
+    margin-top: 0;
     padding-top: 5%;
     letter-spacing: 10px;
 }
@@ -344,8 +344,8 @@ a.button25:active {
 
 }
 #contactsfooter1 {
-    min-width: 85%;
-    margin-left: 0.5%;
+    min-width: 94%;
+    margin-left: -50px;
     float: left;
     height: 10%;
 }
